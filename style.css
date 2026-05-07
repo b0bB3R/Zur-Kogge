@@ -3,6 +3,35 @@
    Maritime Restaurant Website
 ═══════════════════════════════════════════ */
 
+/* ── SELF-HOSTED FONTS (DSGVO-konform) ──────
+   WOFF2-Dateien herunterladen: https://gwfh.mranftl.com/fonts/playfair-display
+   und https://gwfh.mranftl.com/fonts/lato – in /fonts/ ablegen.
+─────────────────────────────────────────── */
+@font-face {
+  font-family: 'Playfair Display'; font-style: normal; font-weight: 600;
+  font-display: swap; src: url('fonts/playfair-display-v36-600.woff2') format('woff2');
+}
+@font-face {
+  font-family: 'Playfair Display'; font-style: normal; font-weight: 700;
+  font-display: swap; src: url('fonts/playfair-display-v36-700.woff2') format('woff2');
+}
+@font-face {
+  font-family: 'Playfair Display'; font-style: normal; font-weight: 900;
+  font-display: swap; src: url('fonts/playfair-display-v36-900.woff2') format('woff2');
+}
+@font-face {
+  font-family: 'Lato'; font-style: normal; font-weight: 300;
+  font-display: swap; src: url('fonts/lato-v24-300.woff2') format('woff2');
+}
+@font-face {
+  font-family: 'Lato'; font-style: normal; font-weight: 400;
+  font-display: swap; src: url('fonts/lato-v24-regular.woff2') format('woff2');
+}
+@font-face {
+  font-family: 'Lato'; font-style: normal; font-weight: 700;
+  font-display: swap; src: url('fonts/lato-v24-700.woff2') format('woff2');
+}
+
 /* ── Reset & Base ── */
 *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
 
