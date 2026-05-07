@@ -874,39 +874,12 @@ h1, h2, h3, h4 { font-family: var(--serif); line-height: 1.18; letter-spacing: -
   position: relative; height: 480px; overflow: hidden;
   background: #0d2235; display: flex;
 }
-.map-placeholder { position: absolute; inset: 0; background: #0d2235; }
-.map-grid-overlay {
+.map-embed {
   position: absolute; inset: 0;
-  background:
-    repeating-linear-gradient(0deg, transparent, transparent 55px, rgba(45,106,138,0.07) 55px, rgba(45,106,138,0.07) 56px),
-    repeating-linear-gradient(90deg, transparent, transparent 55px, rgba(45,106,138,0.07) 55px, rgba(45,106,138,0.07) 56px);
 }
-.map-streets { position: absolute; inset: 0; }
-.map-street { position: absolute; background: rgba(45,106,138,0.12); border-radius: 2px; }
-.s1 { top: 35%; left: 0; right: 0; height: 12px; }
-.s2 { top: 55%; left: 0; right: 0; height: 8px; }
-.s3 { left: 40%; top: 0; bottom: 0; width: 10px; }
-.s4 { left: 62%; top: 0; bottom: 0; width: 7px; }
-.map-block { position: absolute; background: rgba(26,58,92,0.25); border-radius: 4px; }
-.b1 { top: 10%; left: 15%; width: 22%; height: 22%; }
-.b2 { top: 10%; right: 10%; width: 18%; height: 18%; }
-.map-water { position: absolute; bottom: 0; left: 0; right: 0; height: 28%;
-  background: linear-gradient(0deg, rgba(13,47,80,0.5) 0%, rgba(13,47,80,0.15) 100%);
-  border-top: 1px solid rgba(45,106,138,0.2);
+.map-embed iframe {
+  width: 100%; height: 100%; border: 0; display: block;
 }
-.map-pin-marker {
-  position: absolute; top: 50%; left: 50%;
-  transform: translate(-50%, -100%);
-  display: flex; flex-direction: column; align-items: center; gap: 4px;
-  animation: pinFloat 2.5s ease-in-out infinite; z-index: 10;
-}
-.map-pin-marker svg { width: 44px; height: 58px; filter: drop-shadow(0 4px 16px rgba(200,151,62,0.6)); }
-.pin-label {
-  background: rgba(13,27,42,0.98); color: var(--cream);
-  font-size: 0.8rem; font-weight: 700; padding: 4px 14px; border-radius: 50px;
-  border: 1px solid rgba(200,151,62,0.3); white-space: nowrap;
-}
-@keyframes pinFloat { 0%,100%{transform:translate(-50%,-100%);} 50%{transform:translate(-50%,calc(-100% - 10px));} }
 
 .map-overlay {
   position: absolute; top: 50%; left: 80px; transform: translateY(-50%); z-index: 20;
