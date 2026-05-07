@@ -1,0 +1,701 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Zur Kogge – Rostocks ältestes maritimes Restaurant seit über 150 Jahren. Authentisches Flair, frischer Fisch, urige Atmosphäre direkt in der Altstadt." />
+  <title>Zur Kogge – Rostocks ältestes Maritimes Restaurant</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,700;0,900;1,700&family=Lato:wght@300;400;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- ═══ NAVIGATION ═══ -->
+  <nav id="navbar">
+    <div class="nav-inner">
+      <a href="#hero" class="nav-logo">
+        <svg class="nav-anchor" viewBox="0 0 40 50" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+          <circle cx="20" cy="8" r="6" stroke="currentColor" stroke-width="2.5" fill="none"/>
+          <line x1="20" y1="14" x2="20" y2="44" stroke="currentColor" stroke-width="2.5"/>
+          <path d="M8 28 Q4 38 8 44" stroke="currentColor" stroke-width="2.5" fill="none"/>
+          <path d="M32 28 Q36 38 32 44" stroke="currentColor" stroke-width="2.5" fill="none"/>
+          <line x1="8" y1="44" x2="32" y2="44" stroke="currentColor" stroke-width="2.5"/>
+          <line x1="8" y1="28" x2="32" y2="28" stroke="currentColor" stroke-width="2.5"/>
+        </svg>
+        <span>Zur Kogge</span>
+      </a>
+      <button class="nav-toggle" id="navToggle" aria-label="Menü öffnen">
+        <span></span><span></span><span></span>
+      </button>
+      <ul class="nav-links" id="navLinks">
+        <li><a href="#geschichte">Geschichte</a></li>
+        <li><a href="#speisen">Speisen</a></li>
+        <li><a href="#atmosphaere">Atmosphäre</a></li>
+        <li><a href="#bewertungen">Gäste</a></li>
+        <li><a href="#reservierung" class="nav-cta">Reservieren</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- ═══ HERO ═══ -->
+  <section id="hero">
+    <div class="hero-bg">
+      <div class="stars"></div>
+    </div>
+    <div class="waves-container">
+      <svg class="wave wave-1" viewBox="0 0 1440 120" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg">
+        <path d="M0,60 C240,110 480,10 720,60 C960,110 1200,10 1440,60 L1440,120 L0,120 Z" fill="rgba(13,27,42,0.5)"/>
+      </svg>
+      <svg class="wave wave-2" viewBox="0 0 1440 120" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg">
+        <path d="M0,40 C360,100 720,0 1080,60 C1200,80 1350,30 1440,50 L1440,120 L0,120 Z" fill="rgba(13,27,42,0.8)"/>
+      </svg>
+      <svg class="wave wave-3" viewBox="0 0 1440 120" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg">
+        <path d="M0,80 C180,20 360,100 540,60 C720,20 900,90 1080,50 C1260,10 1380,70 1440,80 L1440,120 L0,120 Z" fill="#0d1b2a"/>
+      </svg>
+    </div>
+
+    <div class="hero-content">
+      <p class="hero-eyebrow">Rostock · Seit 1873</p>
+      <h1>Zur Kogge</h1>
+      <p class="hero-tagline">Rostocks ältestes maritimes Restaurant.<br>Urig. Echt. Unvergesslich.</p>
+      <div class="hero-rope-divider">
+        <span class="rope-line"></span>
+        <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 2a4 4 0 1 1 0 8 4 4 0 0 1 0-8zm0 10c4.42 0 8 1.79 8 4v2H4v-2c0-2.21 3.58-4 8-4z"/></svg>
+        <span class="rope-line"></span>
+      </div>
+      <div class="hero-actions">
+        <a href="#reservierung" class="btn btn-primary">Tisch reservieren</a>
+        <a href="#speisen" class="btn btn-ghost">Speisekarte</a>
+      </div>
+      <div class="hero-badges">
+        <div class="badge">
+          <span class="badge-number">150+</span>
+          <span class="badge-label">Jahre Tradition</span>
+        </div>
+        <div class="badge-divider"></div>
+        <div class="badge">
+          <span class="badge-number">4,5 ★</span>
+          <span class="badge-label">Google-Bewertung</span>
+        </div>
+        <div class="badge-divider"></div>
+        <div class="badge">
+          <span class="badge-number">Nr. 1</span>
+          <span class="badge-label">Fischrestaurant Rostock</span>
+        </div>
+      </div>
+    </div>
+
+    <div class="scroll-hint">
+      <span>Entdecken</span>
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
+        <path d="M12 5v14M5 12l7 7 7-7"/>
+      </svg>
+    </div>
+  </section>
+
+  <!-- ═══ GESCHICHTE ═══ -->
+  <section id="geschichte" class="section-dark">
+    <div class="container">
+      <div class="geschichte-grid">
+        <div class="geschichte-text">
+          <span class="section-eyebrow">Unsere Geschichte</span>
+          <h2>Seit über 150&nbsp;Jahren<br>ein Stück Rostock</h2>
+          <p class="lead">Was einst als einfache Hafenkneipe für Seefahrer begann, ist heute Rostocks bekanntestes maritimes Restaurant — und nichts hat sich an seiner Seele verändert.</p>
+          <p>Die Kogge liegt im Herzen der Altstadt, nur wenige Schritte vom Stadthafen entfernt. Hier kehren Generationen ein: Seeleute, Handwerker, Bürger, Touristen. Der Geruch von frisch gebratenem Fisch, das Knarren alter Holzdielen, dutzende Schiffsmodelle und Seemannsrelikte — all das macht diesen Ort zu einem lebendigen Museum der Seefahrt.</p>
+          <p>Kein Tisch ist wie der andere. Jede Ecke erzählt eine Geschichte. Und jedes Gericht kommt so auf den Tisch, wie es schon immer war: frisch, großzügig, ehrlich.</p>
+          <div class="geschichte-stats">
+            <div class="stat">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><path d="M12 22s-8-4.5-8-11.8A8 8 0 0 1 12 2a8 8 0 0 1 8 8.2c0 7.3-8 11.8-8 11.8z"/><circle cx="12" cy="10" r="3"/></svg>
+              <span>Rostocker Altstadt<br>Nahe Stadthafen</span>
+            </div>
+            <div class="stat">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg>
+              <span>Stammgäste &amp;<br>Neuentdecker</span>
+            </div>
+            <div class="stat">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/><polyline points="9 22 9 12 15 12 15 22"/></svg>
+              <span>Zwei Etagen<br>voller Charme</span>
+            </div>
+          </div>
+        </div>
+        <div class="geschichte-visual">
+          <div class="ship-illustration">
+            <svg viewBox="0 0 420 380" fill="none" xmlns="http://www.w3.org/2000/svg" class="kogge-svg" aria-label="Kogge – historisches Handelsschiff">
+              <!-- Hull -->
+              <path d="M60 240 Q80 280 140 300 L280 300 Q340 280 360 240 L340 220 L80 220 Z" fill="#1a3a5c" stroke="#c8973e" stroke-width="2"/>
+              <!-- Hull planks -->
+              <path d="M80 230 L340 230" stroke="#c8973e" stroke-width="1" opacity="0.4"/>
+              <path d="M75 245 L345 245" stroke="#c8973e" stroke-width="1" opacity="0.3"/>
+              <path d="M90 260 L330 260" stroke="#c8973e" stroke-width="1" opacity="0.3"/>
+              <path d="M110 275 L310 275" stroke="#c8973e" stroke-width="1" opacity="0.2"/>
+              <!-- Deck -->
+              <rect x="80" y="210" width="260" height="15" fill="#0d2a45" stroke="#c8973e" stroke-width="1.5"/>
+              <!-- Cabin -->
+              <rect x="240" y="170" width="90" height="45" rx="3" fill="#0d2a45" stroke="#c8973e" stroke-width="1.5"/>
+              <rect x="255" y="180" width="20" height="18" rx="2" fill="#c8973e" opacity="0.3"/>
+              <rect x="285" y="180" width="20" height="18" rx="2" fill="#c8973e" opacity="0.3"/>
+              <!-- Main mast -->
+              <line x1="200" y1="60" x2="200" y2="215" stroke="#c8973e" stroke-width="3"/>
+              <!-- Foremast -->
+              <line x1="140" y1="90" x2="140" y2="215" stroke="#c8973e" stroke-width="2.5"/>
+              <!-- Main sail -->
+              <path d="M200 70 L200 180 L260 160 L280 80 Z" fill="#f4ead0" opacity="0.15" stroke="#c8973e" stroke-width="1"/>
+              <path d="M200 70 L200 180 L140 160 L120 80 Z" fill="#f4ead0" opacity="0.12" stroke="#c8973e" stroke-width="1"/>
+              <!-- Top sail -->
+              <path d="M200 65 L200 100 L230 90 L240 68 Z" fill="#f4ead0" opacity="0.12" stroke="#c8973e" stroke-width="1"/>
+              <!-- Fore sail -->
+              <path d="M140 100 L140 180 L90 160 L80 105 Z" fill="#f4ead0" opacity="0.1" stroke="#c8973e" stroke-width="1"/>
+              <!-- Bowsprit -->
+              <line x1="80" y1="215" x2="30" y2="175" stroke="#c8973e" stroke-width="2"/>
+              <!-- Rigging -->
+              <line x1="200" y1="70" x2="80" y2="215" stroke="#c8973e" stroke-width="0.8" opacity="0.5"/>
+              <line x1="200" y1="70" x2="340" y2="215" stroke="#c8973e" stroke-width="0.8" opacity="0.5"/>
+              <line x1="140" y1="90" x2="200" y2="70" stroke="#c8973e" stroke-width="0.8" opacity="0.5"/>
+              <!-- Flag -->
+              <line x1="200" y1="60" x2="200" y2="40" stroke="#c8973e" stroke-width="1.5"/>
+              <path d="M200 40 L225 48 L200 56 Z" fill="#c8973e"/>
+              <!-- Anchor -->
+              <g transform="translate(320,190) scale(0.6)" opacity="0.7">
+                <circle cx="10" cy="4" r="3" stroke="#c8973e" stroke-width="1.5" fill="none"/>
+                <line x1="10" y1="7" x2="10" y2="22" stroke="#c8973e" stroke-width="1.5"/>
+                <line x1="4" y1="14" x2="16" y2="14" stroke="#c8973e" stroke-width="1.5"/>
+                <path d="M4 22 Q1 18 4 14" stroke="#c8973e" stroke-width="1.5" fill="none"/>
+                <path d="M16 22 Q19 18 16 14" stroke="#c8973e" stroke-width="1.5" fill="none"/>
+                <line x1="4" y1="22" x2="16" y2="22" stroke="#c8973e" stroke-width="1.5"/>
+              </g>
+              <!-- Water line decoration -->
+              <path d="M60 300 Q120 310 210 305 Q300 300 360 308" stroke="#2d6a8a" stroke-width="2" fill="none" opacity="0.6"/>
+              <path d="M40 312 Q130 320 210 316 Q300 312 380 320" stroke="#2d6a8a" stroke-width="1.5" fill="none" opacity="0.4"/>
+              <!-- Decorative rope circle -->
+              <circle cx="210" cy="190" r="100" stroke="#c8973e" stroke-width="0.5" stroke-dasharray="4 8" opacity="0.2" fill="none"/>
+            </svg>
+          </div>
+          <div class="quote-card">
+            <svg class="quote-mark" viewBox="0 0 40 30" fill="currentColor" aria-hidden="true">
+              <path d="M0 20 C0 8 6 0 18 0 L18 6 C12 6 9 10 9 16 L9 16 C12 16 15 19 15 22 C15 26 12 30 8 30 C3 30 0 26 0 20 Z M22 20 C22 8 28 0 40 0 L40 6 C34 6 31 10 31 16 L31 16 C34 16 37 19 37 22 C37 26 34 30 30 30 C25 30 22 26 22 20 Z"/>
+            </svg>
+            <p>Ein Aufenthalt in Rostock ohne mindestens einmal zu Besuch in der Kogge gewesen zu sein, wäre wirklich Frevel.</p>
+            <cite>— Dagmar F., Stammgast</cite>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══ SPEISEN ═══ -->
+  <section id="speisen" class="section-light">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-eyebrow">Aus Meer &amp; Land</span>
+        <h2>Die Speisekarte</h2>
+        <p class="section-desc">Frisch. Ehrlich. Hausgemacht. Von der Nordsee-Scholle bis zum deftig-hanseatischen Schnitzel — hier kocht die Küche, wie früher gekocht wurde.</p>
+      </div>
+
+      <div class="menu-tabs">
+        <button class="tab-btn active" data-tab="fisch">Fischgerichte</button>
+        <button class="tab-btn" data-tab="fleisch">Fleisch &amp; Klassiker</button>
+        <button class="tab-btn" data-tab="vorspeisen">Vorspeisen</button>
+      </div>
+
+      <div class="menu-grid" id="tab-fisch">
+        <div class="menu-card featured">
+          <div class="menu-card-badge">Hausklassiker</div>
+          <div class="menu-icon">🐟</div>
+          <h3>Scholle Finkenwerder Art</h3>
+          <p>Gebratene Nordseescholle mit Speck, Bratkartoffeln und hausgemachter Remoulade — knusprig außen, zart innen.</p>
+          <div class="menu-tags">
+            <span>Hausgemacht</span><span>Frisch</span>
+          </div>
+        </div>
+        <div class="menu-card">
+          <div class="menu-icon">🐠</div>
+          <h3>Zander mit Kartoffeln &amp; Meerrettich</h3>
+          <p>Zarter Ostsee-Zander auf der Haut gebraten, dazu Pellkartoffeln und cremiger Meerrettich — ein Klassiker der norddeutschen Küche.</p>
+          <div class="menu-tags"><span>Regional</span></div>
+        </div>
+        <div class="menu-card">
+          <div class="menu-icon">🐟</div>
+          <h3>Matjesroulette mit Bratkartoffeln</h3>
+          <p>Hausgemachtes Matjesroulette mit frischer Remoulade und goldenen Bratkartoffeln. Einer der beliebtesten Teller überhaupt.</p>
+          <div class="menu-tags"><span>Hausgemacht</span><span>Beliebt</span></div>
+        </div>
+        <div class="menu-card">
+          <div class="menu-icon">🐟</div>
+          <h3>Schollenfilet im Knuspermantel</h3>
+          <p>Knusprig paniertes Schollenfilet, direkt in der Pfanne gebraten — nicht aus der Fritteuse. Frisch, saftig, unwiderstehlich.</p>
+          <div class="menu-tags"><span>Sehr beliebt</span></div>
+        </div>
+        <div class="menu-card">
+          <div class="menu-icon">🐡</div>
+          <h3>Ostseebrathering</h3>
+          <p>Traditioneller Brathering aus der Ostsee, klassisch zubereitet mit Bohnen, Speck und Bratkartoffeln.</p>
+          <div class="menu-tags"><span>Tradition</span></div>
+        </div>
+        <div class="menu-card">
+          <div class="menu-icon">🍲</div>
+          <h3>Fischsuppe &amp; Fischragout</h3>
+          <p>Deftige Fischsuppe nach altem Rezept und saisonale Fischragouts — die perfekte Stärkung nach einem langen Tag auf dem Wasser.</p>
+          <div class="menu-tags"><span>Saisonal</span></div>
+        </div>
+      </div>
+
+      <div class="menu-grid hidden" id="tab-fleisch">
+        <div class="menu-card featured">
+          <div class="menu-card-badge">Gästelieblings</div>
+          <div class="menu-icon">🥩</div>
+          <h3>Schnitzel mit Bratkartoffeln</h3>
+          <p>Das legendäre Schnitzel der Kogge — unglaublich zart, riesige Portion, goldbraun gebraten. Empfehlung des Hauses!</p>
+          <div class="menu-tags"><span>Hausgemacht</span><span>Riesige Portion</span></div>
+        </div>
+        <div class="menu-card">
+          <div class="menu-icon">🥩</div>
+          <h3>Schweinesteak mit Rahmchampignons</h3>
+          <p>Saftig gebratenes Schweinesteak, dazu cremige Rahmchampignons und knusprige Bratkartoffeln — Hausmannskost vom Feinsten.</p>
+          <div class="menu-tags"><span>Hausgemacht</span></div>
+        </div>
+        <div class="menu-card">
+          <div class="menu-icon">🥣</div>
+          <h3>Labskaus</h3>
+          <p>Der echte norddeutsche Labskaus — Seemannskost aus gepökeltem Rindfleisch, Kartoffeln und Rüben. Ein Stück Geschichte auf dem Teller.</p>
+          <div class="menu-tags"><span>Tradition</span><span>Seemannskost</span></div>
+        </div>
+        <div class="menu-card">
+          <div class="menu-icon">🍲</div>
+          <h3>Soljanka</h3>
+          <p>Kräftig-säuerliche Soljanka nach klassischem Rezept — gut abgeschmeckt und tief aromatisch. Ein Geheimtipp der Kogge.</p>
+          <div class="menu-tags"><span>Klassiker</span></div>
+        </div>
+      </div>
+
+      <div class="menu-grid hidden" id="tab-vorspeisen">
+        <div class="menu-card">
+          <div class="menu-icon">🥗</div>
+          <h3>Matjes-Tatar</h3>
+          <p>Feines Matjestatar mit roten Zwiebeln, Äpfeln und hausgemachter Remoulade — leicht, frisch und voller Charakter.</p>
+          <div class="menu-tags"><span>Hausgemacht</span></div>
+        </div>
+        <div class="menu-card">
+          <div class="menu-icon">🥬</div>
+          <h3>Mini-Camemberts mit Salsa</h3>
+          <p>Gebackene Mini-Camemberts mit hausgemachter Salsa — selbst die Beilagen sind bei der Kogge eine Überraschung.</p>
+          <div class="menu-tags"><span>Hausgemacht</span></div>
+        </div>
+        <div class="menu-card featured">
+          <div class="menu-card-badge">Saisonal</div>
+          <div class="menu-icon">🍂</div>
+          <h3>Saisonangebote</h3>
+          <p>Die Kogge kocht mit den Jahreszeiten. Vom Kürbispüree mit Dorsch im Herbst bis zur leichten Sommervorspeise — immer neu, immer frisch.</p>
+          <div class="menu-tags"><span>Wechselnd</span></div>
+        </div>
+      </div>
+
+      <div class="menu-note">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><circle cx="12" cy="12" r="10"/><line x1="12" y1="8" x2="12" y2="12"/><line x1="12" y1="16" x2="12.01" y2="16"/></svg>
+        <span>Sonderwünsche und Beilagenänderungen sind für uns selbstverständlich. Auch Senioren- und vegetarische Optionen verfügbar.</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══ ATMOSPHÄRE ═══ -->
+  <section id="atmosphaere" class="section-dark">
+    <div class="container">
+      <div class="section-header light">
+        <span class="section-eyebrow">Das Erlebnis</span>
+        <h2>Ein Ort wie kein anderer</h2>
+      </div>
+      <div class="vibes-grid">
+        <div class="vibe-card vibe-large">
+          <div class="vibe-icon-wrap">
+            <svg viewBox="0 0 60 60" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+              <circle cx="30" cy="30" r="28" stroke="#c8973e" stroke-width="1.5" stroke-dasharray="4 6"/>
+              <path d="M30 10 L30 50 M10 30 L50 30" stroke="#c8973e" stroke-width="1.5" opacity="0.4"/>
+              <circle cx="30" cy="30" r="5" fill="#c8973e" opacity="0.8"/>
+              <path d="M30 14 L33 22 L30 20 L27 22 Z" fill="#c8973e"/>
+            </svg>
+          </div>
+          <h3>Lebendes Museum der Seefahrt</h3>
+          <p>Schiffsmodelle, Seemannsrelikte, alte Wappen und maritime Artefakte — kein Winkel ohne Geschichte. Man könnte stundenlang schauen, bevor das Essen kommt.</p>
+        </div>
+        <div class="vibe-card">
+          <div class="vibe-icon-wrap">
+            <svg viewBox="0 0 50 50" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+              <path d="M25 5 C25 5 10 15 10 28 C10 36 17 43 25 43 C33 43 40 36 40 28 C40 15 25 5 25 5Z" stroke="#c8973e" stroke-width="1.5" fill="none"/>
+              <circle cx="25" cy="28" r="8" stroke="#c8973e" stroke-width="1.5" fill="none" opacity="0.5"/>
+              <path d="M18 28 L25 21 L32 28" stroke="#c8973e" stroke-width="1.5" fill="none"/>
+            </svg>
+          </div>
+          <h3>Zwei Etagen, jede einzigartig</h3>
+          <p>Unten das Ursprüngliche, oben das Gemütliche. Die obere Galerie ist ein besonders begehrter Platz — ruhiger, intimer, mit bestem Überblick.</p>
+        </div>
+        <div class="vibe-card">
+          <div class="vibe-icon-wrap">
+            <svg viewBox="0 0 50 50" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+              <path d="M10 35 L25 10 L40 35" stroke="#c8973e" stroke-width="1.5" fill="none"/>
+              <line x1="15" y1="28" x2="35" y2="28" stroke="#c8973e" stroke-width="1.5"/>
+              <line x1="25" y1="10" x2="25" y2="40" stroke="#c8973e" stroke-width="1.5"/>
+              <circle cx="25" cy="40" r="4" stroke="#c8973e" stroke-width="1.5" fill="none"/>
+            </svg>
+          </div>
+          <h3>Atmosph&auml;re wie damals</h3>
+          <p>Man fühlt sich sofort in die Zeit der frühen Seefahrt versetzt. Kein Chi-Chi, kein Firlefanz — dafür echter, warmer, norddeutscher Charme.</p>
+        </div>
+        <div class="vibe-card">
+          <div class="vibe-icon-wrap">
+            <svg viewBox="0 0 50 50" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+              <circle cx="25" cy="18" r="7" stroke="#c8973e" stroke-width="1.5" fill="none"/>
+              <path d="M15 42 C15 34 35 34 35 42" stroke="#c8973e" stroke-width="1.5" fill="none"/>
+              <path d="M8 38 C8 33 15 30 25 30" stroke="#c8973e" stroke-width="1.5" stroke-dasharray="2 3" fill="none"/>
+              <path d="M42 38 C42 33 35 30 25 30" stroke="#c8973e" stroke-width="1.5" stroke-dasharray="2 3" fill="none"/>
+            </svg>
+          </div>
+          <h3>Der runde Stammtisch</h3>
+          <p>Ohne Reservierung? Manchmal findet man noch Platz am großen Runden — und lernt dabei die nettesten Leute kennen. Das ist Kogge.</p>
+        </div>
+        <div class="vibe-card">
+          <div class="vibe-icon-wrap">
+            <svg viewBox="0 0 50 50" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+              <path d="M10 25 Q15 15 25 20 Q35 25 40 15" stroke="#c8973e" stroke-width="1.5" fill="none"/>
+              <path d="M10 32 Q18 22 25 28 Q32 34 40 22" stroke="#c8973e" stroke-width="1.5" fill="none" opacity="0.7"/>
+              <path d="M10 39 Q20 29 25 35 Q30 41 40 29" stroke="#c8973e" stroke-width="1.5" fill="none" opacity="0.4"/>
+            </svg>
+          </div>
+          <h3>Manchmal mit Musik</h3>
+          <p>Gelegentlich stimmt der Chor Maritimer Kraftgesang ein — und der Abend wird zu einem Erlebnis, das man nicht so schnell vergisst.</p>
+        </div>
+        <div class="vibe-card vibe-cta">
+          <div class="vibe-rope-corner"></div>
+          <p class="vibe-cta-text">„Es ist nicht umsonst, dass Zur Kogge so beliebt ist."</p>
+          <a href="#reservierung" class="btn btn-primary btn-sm">Jetzt reservieren</a>
+          <p class="vibe-cta-hint">Reservierung dringend empfohlen — oft bis zu 2 Wochen im Voraus ausgebucht.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══ BEWERTUNGEN ═══ -->
+  <section id="bewertungen" class="section-warm">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-eyebrow">Was Gäste sagen</span>
+        <h2>Echte Stimmen, echte Erlebnisse</h2>
+        <div class="rating-summary">
+          <div class="stars-display">
+            <span class="star">★</span><span class="star">★</span><span class="star">★</span><span class="star">★</span><span class="star half">★</span>
+          </div>
+          <span class="rating-number">4,5 von 5</span>
+          <span class="rating-count">· Hunderte Google-Bewertungen</span>
+        </div>
+      </div>
+
+      <div class="reviews-carousel" id="reviewsCarousel">
+        <div class="reviews-track" id="reviewsTrack">
+
+          <div class="review-card">
+            <div class="review-stars">★★★★★</div>
+            <p class="review-text">„Was für ein Erlebnis! Der Service war unglaublich freundlich, witzig und höflich. Man fühlt sich sofort wohl in diesem traumhaften Ambiente, das den Charme alter Hafen-Kneipen perfekt einfängt."</p>
+            <div class="review-author">
+              <span class="author-name">Christian S.</span>
+              <span class="author-tag">Local Guide</span>
+            </div>
+          </div>
+
+          <div class="review-card">
+            <div class="review-stars">★★★★★</div>
+            <p class="review-text">„Ein Aufenthalt in Rostock ohne mindestens einmal zu Besuch in der Kogge gewesen zu sein, wäre wirklich Frevel.... Das ist die wirklich abgefahrenste Location, die ich je besucht habe."</p>
+            <div class="review-author">
+              <span class="author-name">Dagmar F.</span>
+              <span class="author-tag">Local Guide</span>
+            </div>
+          </div>
+
+          <div class="review-card">
+            <div class="review-stars">★★★★★</div>
+            <p class="review-text">„Kann nur sagen: wenn es 10 Sterne zu vergeben gäbe, auch die hätten sie bekommen. Wir sind ohne zu reservieren dort hingegangen und wurden sowas von freundlich empfangen."</p>
+            <div class="review-author">
+              <span class="author-name">DerAltpunk1970</span>
+              <span class="author-tag">Local Guide</span>
+            </div>
+          </div>
+
+          <div class="review-card">
+            <div class="review-stars">★★★★★</div>
+            <p class="review-text">„Gebe selten eine so gute Bewertung ab, aber hier hat einfach alles gestimmt. Essen sehr lecker, Bedienung super freundlich und die Kneipe an sich ist sehr urig und gemütlich."</p>
+            <div class="review-author">
+              <span class="author-name">Martin S.</span>
+              <span class="author-tag">Local Guide</span>
+            </div>
+          </div>
+
+          <div class="review-card">
+            <div class="review-stars">★★★★★</div>
+            <p class="review-text">„DIE erste Adresse für Fischgerichte in Rostock!! Das Matjesroulette mit Bratkartoffeln und hausgemachter Remoulade: ein Gedicht! Hervorragendes Preis-Leistungsverhältnis."</p>
+            <div class="review-author">
+              <span class="author-name">Harald N.</span>
+              <span class="author-tag">Local Guide</span>
+            </div>
+          </div>
+
+          <div class="review-card">
+            <div class="review-stars">★★★★★</div>
+            <p class="review-text">„Unser Lieblingsrestaurant, wenn wir nach Rostock kommen. Das Ambiente ist so toll und authentisch und das Essen wirklich mega lecker! Man fühlt sich einfach wohl und kommt auf jeden Fall wieder."</p>
+            <div class="review-author">
+              <span class="author-name">Sophie K.</span>
+              <span class="author-tag">Stammgast</span>
+            </div>
+          </div>
+
+          <div class="review-card">
+            <div class="review-stars">★★★★★</div>
+            <p class="review-text">„Eine der besten Hafenkneipen, die ich kenne. Großartige Speisen, gute Atmosphäre und freundliches Personal. Ich hatte hier schon viele großartige Abende!"</p>
+            <div class="review-author">
+              <span class="author-name">Daniel K.</span>
+              <span class="author-tag">Local Guide</span>
+            </div>
+          </div>
+
+          <div class="review-card">
+            <div class="review-stars">★★★★★</div>
+            <p class="review-text">„Ein absolut einzigartiges Lokal, das mit seiner unglaublichen Atmosphäre und den zahlreichen Details zum Verweilen und Staunen einlädt. Wir freuen uns schon auf den nächsten Besuch!"</p>
+            <div class="review-author">
+              <span class="author-name">Jani B.</span>
+              <span class="author-tag">Gast</span>
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+      <div class="carousel-controls">
+        <button class="carousel-btn" id="prevBtn" aria-label="Vorherige Bewertung">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" aria-hidden="true"><path d="M15 18l-6-6 6-6"/></svg>
+        </button>
+        <div class="carousel-dots" id="carouselDots"></div>
+        <button class="carousel-btn" id="nextBtn" aria-label="Nächste Bewertung">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" aria-hidden="true"><path d="M9 18l6-6-6-6"/></svg>
+        </button>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══ RESERVIERUNG ═══ -->
+  <section id="reservierung" class="section-dark reservation-section">
+    <div class="container">
+      <div class="reservation-grid">
+        <div class="reservation-text">
+          <span class="section-eyebrow">Sichern Sie sich Ihren Platz</span>
+          <h2>Tisch reservieren</h2>
+          <p>Die Kogge ist klein und begehrt — oft Wochen im Voraus ausgebucht. Reservieren Sie frühzeitig, um Enttäuschungen zu vermeiden.</p>
+          <div class="reservation-info">
+            <div class="info-row">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+              <div>
+                <strong>Öffnungszeiten</strong>
+                <span>Mo–So: 11:30 – 22:00 Uhr</span>
+              </div>
+            </div>
+            <div class="info-row">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07A19.5 19.5 0 0 1 4.69 11.5 19.79 19.79 0 0 1 1.61 2.88 2 2 0 0 1 3.58 1h3a2 2 0 0 1 2 1.72c.127.96.361 1.903.7 2.81a2 2 0 0 1-.45 2.11L7.91 8.96a16 16 0 0 0 6 6l1.06-1.06a2 2 0 0 1 2.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+              <div>
+                <strong>Telefonisch</strong>
+                <span>+49 (0)381 · XXX XXXX</span>
+              </div>
+            </div>
+            <div class="info-row">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
+              <div>
+                <strong>Adresse</strong>
+                <span>Wokrenterstraße 27<br>18055 Rostock</span>
+              </div>
+            </div>
+            <div class="info-row">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><rect x="3" y="4" width="18" height="18" rx="2" ry="2"/><line x1="16" y1="2" x2="16" y2="6"/><line x1="8" y1="2" x2="8" y2="6"/><line x1="3" y1="10" x2="21" y2="10"/></svg>
+              <div>
+                <strong>Tipp</strong>
+                <span>2–3 Wochen im Voraus buchen — besonders am Wochenende!</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="reservation-form-wrap">
+          <form class="reservation-form" id="reservationForm" novalidate>
+            <div class="form-row">
+              <div class="form-group">
+                <label for="name">Name *</label>
+                <input type="text" id="name" name="name" placeholder="Ihr Name" required />
+              </div>
+              <div class="form-group">
+                <label for="phone">Telefon *</label>
+                <input type="tel" id="phone" name="phone" placeholder="+49 ..." required />
+              </div>
+            </div>
+            <div class="form-row">
+              <div class="form-group">
+                <label for="date">Datum *</label>
+                <input type="date" id="date" name="date" required />
+              </div>
+              <div class="form-group">
+                <label for="time">Uhrzeit *</label>
+                <select id="time" name="time" required>
+                  <option value="">Bitte wählen</option>
+                  <option>11:30</option>
+                  <option>12:00</option>
+                  <option>12:30</option>
+                  <option>13:00</option>
+                  <option>13:30</option>
+                  <option>17:00</option>
+                  <option>17:30</option>
+                  <option>18:00</option>
+                  <option>18:30</option>
+                  <option>19:00</option>
+                  <option>19:30</option>
+                  <option>20:00</option>
+                  <option>20:30</option>
+                  <option>21:00</option>
+                </select>
+              </div>
+            </div>
+            <div class="form-group">
+              <label for="guests">Anzahl Personen *</label>
+              <select id="guests" name="guests" required>
+                <option value="">Bitte wählen</option>
+                <option>1 Person</option>
+                <option>2 Personen</option>
+                <option>3 Personen</option>
+                <option>4 Personen</option>
+                <option>5 Personen</option>
+                <option>6 Personen</option>
+                <option>7–10 Personen</option>
+                <option>Über 10 Personen</option>
+              </select>
+            </div>
+            <div class="form-group">
+              <label for="message">Anmerkungen</label>
+              <textarea id="message" name="message" rows="3" placeholder="Allergien, besondere Wünsche, Anlass ..."></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary btn-full">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M22 2L11 13"/><path d="M22 2L15 22 11 13 2 9l20-7z"/></svg>
+              Reservierungsanfrage senden
+            </button>
+            <p class="form-disclaimer">Wir melden uns innerhalb von 24 Stunden bei Ihnen. Telefonische Reservierung ebenfalls möglich.</p>
+            <div class="form-success hidden" id="formSuccess">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/><polyline points="22 4 12 14.01 9 11.01"/></svg>
+              <strong>Anfrage gesendet!</strong> Wir freuen uns auf Ihren Besuch und melden uns bald.
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══ KARTE ═══ -->
+  <section id="karte" class="section-map">
+    <div class="map-overlay">
+      <div class="map-info-card">
+        <div class="map-anchor">
+          <svg viewBox="0 0 40 50" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+            <circle cx="20" cy="8" r="6" stroke="#c8973e" stroke-width="2.5" fill="none"/>
+            <line x1="20" y1="14" x2="20" y2="44" stroke="#c8973e" stroke-width="2.5"/>
+            <path d="M8 28 Q4 38 8 44" stroke="#c8973e" stroke-width="2.5" fill="none"/>
+            <path d="M32 28 Q36 38 32 44" stroke="#c8973e" stroke-width="2.5" fill="none"/>
+            <line x1="8" y1="44" x2="32" y2="44" stroke="#c8973e" stroke-width="2.5"/>
+            <line x1="8" y1="28" x2="32" y2="28" stroke="#c8973e" stroke-width="2.5"/>
+          </svg>
+        </div>
+        <h3>So finden Sie uns</h3>
+        <address>
+          <strong>Zur Kogge</strong><br>
+          Wokrenterstraße 27<br>
+          18055 Rostock
+        </address>
+        <div class="map-details">
+          <p><strong>Parkplatz:</strong> Direkt vor der Tür</p>
+          <p><strong>Straßenbahn:</strong> Haltestelle Stadtmitte (5 Min. Fußweg)</p>
+          <p><strong>Kartenzahlung:</strong> Möglich</p>
+          <p><strong>Fotos:</strong> Willkommen!</p>
+        </div>
+        <a href="https://maps.google.com/?q=Wokrenterstrase+27+Rostock" target="_blank" rel="noopener noreferrer" class="btn btn-primary btn-sm">In Google Maps öffnen</a>
+      </div>
+    </div>
+    <div class="map-placeholder">
+      <div class="map-grid-lines"></div>
+      <div class="map-pin-marker">
+        <svg viewBox="0 0 24 32" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+          <path d="M12 0C5.37 0 0 5.37 0 12c0 9 12 20 12 20S24 21 24 12C24 5.37 18.63 0 12 0z" fill="#c8973e"/>
+          <circle cx="12" cy="12" r="5" fill="white"/>
+        </svg>
+        <span class="pin-label">Zur Kogge</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══ FOOTER ═══ -->
+  <footer id="footer">
+    <div class="footer-waves">
+      <svg viewBox="0 0 1440 60" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+        <path d="M0,30 C360,60 720,0 1080,30 C1260,45 1380,20 1440,30 L1440,0 L0,0 Z" fill="#0d1b2a" opacity="0.4"/>
+      </svg>
+    </div>
+    <div class="footer-inner">
+      <div class="footer-brand">
+        <div class="footer-logo">
+          <svg class="footer-anchor" viewBox="0 0 40 50" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+            <circle cx="20" cy="8" r="6" stroke="currentColor" stroke-width="2.5" fill="none"/>
+            <line x1="20" y1="14" x2="20" y2="44" stroke="currentColor" stroke-width="2.5"/>
+            <path d="M8 28 Q4 38 8 44" stroke="currentColor" stroke-width="2.5" fill="none"/>
+            <path d="M32 28 Q36 38 32 44" stroke="currentColor" stroke-width="2.5" fill="none"/>
+            <line x1="8" y1="44" x2="32" y2="44" stroke="currentColor" stroke-width="2.5"/>
+            <line x1="8" y1="28" x2="32" y2="28" stroke="currentColor" stroke-width="2.5"/>
+          </svg>
+          <span>Zur Kogge</span>
+        </div>
+        <p class="footer-tagline">Rostocks ältestes maritimes Restaurant.<br>Seit 1873.</p>
+        <div class="footer-rating">
+          <span class="footer-stars">★★★★½</span>
+          <span>auf Google</span>
+        </div>
+      </div>
+
+      <div class="footer-links">
+        <div class="footer-col">
+          <h4>Navigation</h4>
+          <ul>
+            <li><a href="#geschichte">Unsere Geschichte</a></li>
+            <li><a href="#speisen">Speisekarte</a></li>
+            <li><a href="#atmosphaere">Das Erlebnis</a></li>
+            <li><a href="#bewertungen">Gästestimmen</a></li>
+            <li><a href="#reservierung">Reservieren</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>Kontakt</h4>
+          <ul>
+            <li>Wokrenterstraße 27</li>
+            <li>18055 Rostock</li>
+            <li>+49 (0)381 · XXX XXXX</li>
+            <li>Mo–So 11:30–22:00</li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>Besondere Hinweise</h4>
+          <ul>
+            <li>Reservierung empfohlen</li>
+            <li>Kartenzahlung möglich</li>
+            <li>Fotos willkommen</li>
+            <li>Kinderfreundlich</li>
+            <li>Parkplatz vor der Tür</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>© 2025 Zur Kogge · Rostock · Impressum · Datenschutz</p>
+      <p class="footer-credit">Handgefertigt mit ⚓ Leidenschaft</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
